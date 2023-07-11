@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow', sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+:root {
+
+    --h1: 3.5rem;
+    --h1-lh: 3.5rem;
+    --h2: 2rem;
+    --h2-lh: 2.25rem;
+    --h3: 1.5rem;
+    --h3-lh: 1.75rem;
+    --p: 1rem;
+    --p-lh: 1.625rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 900;
+    color: #162542;
+}
+
+h2 {
+    font-size: var(--h2);
+    line-height: var(--h2-lh);
+}
+
+p {
+    font-weight: 500;
+    color: #7B8BAD;
+    line-height: 1.625rem;
+    margin: 0 1.5rem;
+}
+
+.h1-mobile {
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.6rem 1.5rem;
+
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+.button {
+    padding: 0.68rem 0.9rem;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.625;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: #E8EFF2;
+    color: #162542;
+}
+
+.button1:hover {
+    background-color: #162542;
+    color: white;
+}
+
+.button2 {
+    color: white;
+    background-color: #F16718;
+}
+
+.button2:hover {
+    background-color: #FF9B62;
+}
+
+.button3 {
+    font-weight: 700;
+    color: #7B8BAD;
+    font-size: 1rem;
+    line-height: 1.625rem;
+    background: transparent;
+    cursor: pointer;
+}
+
+#keyboard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboard-txt {
+    display: flex;
+    flex-direction: column;
+    padding: 0 1.5rem;
+}
+
+.keyboard-p {
+    margin: 2rem 0;
+}
+
+
+.btns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.keyboard-img {
+    background-image: url(assets/mobile/image-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5%;
+    /* height: 20.75rem; */
+    border-radius: 20px;
+    margin-left: 1.5rem;
+    width: 100%;
+    padding: 42%;
+
+
+}
+
+
+.keyboard-img::after {
+    content: '';
+    display: none;
+    height: 15rem;
+    width: 15.9rem;
+    border-radius: 20px;
+    background-color: #E8EFF2;
+}
+
+.keyboard-txt2,
+.keyboard-txt3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.keyboard-imgs {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.orange-keyboard-img {
+    background-image: url(assets/mobile/image-phone-and-keyboard.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #F16718;
+    background-position: 20%;
+    border-radius: 20px;
+    margin: 1.5rem 0 0 -1rem;
+    width: 144px;
+    height: 193px;
+    padding: 22%;
+
+
+}
+
+.orange-keyboard-img::before {
+    content: '';
+    display: none;
+    height: 15rem;
+    width: 15.9rem;
+    border-radius: 20px;
+    background-color: #E8EFF2;
+}
+
+.main-cont {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.keyboard-img-glass {
+    background-image: url(assets/mobile/image-glass-and-keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 220px;
+    height: 193px;
+    padding: 22%;
+    border-radius: 20px;
+    margin: 1.5rem;
+}
+
+.keyboard-txt3 h2 {
+    margin: 3rem 3.5rem 1.5rem 3.5rem;
+}
+
+.keyboard-txt3 p {
+    margin: 0 1.5rem;
+    margin-bottom: 2.9rem;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card svg {
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+}
+
+.card h3 {
+    margin-bottom: 1.5rem;
+}
+
+.card p {
+    margin: 0 1.875rem 0 0;
+}
+
+
+footer p span {
+    font-weight: 700;
+}
+
+footer p {
+    margin: auto;
+}
+
+footer {
+    margin-top: 6rem;
+    display: flex;
+    margin-bottom: 3.2rem;
+
+}
+
+h3 {
+    font-size: var(--h3);
+    line-height: var(--h3-lh);
+}

@@ -1,0 +1,134 @@
+@media (min-width:768px) {
+
+    .keyboard-img {
+        background-image: url(assets/tablet/image-keyboard.jpg);
+        height: 425px;
+        margin-left: 2.5rem;
+        padding: 10%;
+    }
+
+    .main-cont {
+        flex-direction: row;
+    }
+
+    .orange-keyboard-img {
+        background-image: url(assets/tablet/image-phone-and-keyboard.jpg);
+        margin: 1.5rem 0 0 1.5rem;
+        /* width: 214px; */
+        width: 30%;
+        height: 320px;
+        padding: 15%;
+    }
+
+
+    .keyboard-img-glass {
+        background-image: url(assets/tablet/image-glass-and-keyboard.jpg);
+        /* width: 445px; */
+        width: 60%;
+        height: 320px;
+        padding: 15%;
+        margin: 1.5rem;
+    }
+
+    .card {
+        text-align: left;
+        align-items: start;
+
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 0 6rem 0 2.3rem;
+    }
+
+    .keyboard-txt3 {
+        flex-direction: row;
+
+    }
+
+    .keyboard-txt3 p {
+        margin: auto 1.5rem;
+    }
+}
+
+@media (min-width:1440px) {
+
+    body {
+        padding: 0 10rem;
+    }
+
+    .keyboard-txt p {
+        font-size: 1.125rem;
+        line-height: 1.7rem;
+    }
+
+    .orange-keyboard-img::before {
+        display: block;
+        position: relative;
+        top: 12rem;
+        right: 22rem;
+
+    }
+
+    .orange-keyboard-img {
+        background-image: url(assets/desktop/image-phone-and-keyboard.jpg);
+        margin: 1.5rem 0 0 1.5rem;
+        /* width: 214px; */
+        width: 40%;
+        height: 480px;
+        padding: 5%;
+    }
+
+
+    .keyboard-img-glass {
+        background-image: url(assets/desktop/image-glass-and-keyboard.jpg);
+        /* width: 445px; */
+        width: 60%;
+        height: 480px;
+        padding: 5%;
+        margin: 1.5rem;
+    }
+
+    .keyboard-txt2 {
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .keyboard-imgs {
+        width: 70%;
+        justify-content: right;
+    }
+
+    .keyboard-txt3 {
+        flex-direction: column;
+        width: 30%;
+        margin: auto 3rem;
+    }
+
+    .keyboard-img::after {
+        display: block;
+        position: absolute;
+        right: -7.9rem;
+        top: 6rem;
+
+
+    }
+
+    .keyboard-txt3 h2,
+    .keyboard-txt3 p {
+        margin: 0;
+    }
+
+    .keyboard-txt3 h2 {
+        margin-bottom: 1.68rem;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        padding: 0;
+    }
+}
