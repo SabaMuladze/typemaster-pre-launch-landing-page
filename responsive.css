@@ -51,6 +51,10 @@
     .keyboard-txt3 p {
         margin: auto 1.5rem;
     }
+
+    .card p {
+        margin: 0 1.875rem 0 0;
+    }
 }
 
 @media (min-width:1440px) {
@@ -131,4 +135,6 @@
         grid-template-rows: repeat(1, 1fr);
         padding: 0;
     }
+
+
 }
